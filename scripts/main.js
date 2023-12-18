@@ -25,6 +25,7 @@ function countDown() {
         clearInterval(state.values.countDownTimerID);
         clearInterval(state.values.TimerID);
         alert("Game Over! O seu resultado foi: " + state.values.result);
+        start();
     }
 }
 
